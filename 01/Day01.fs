@@ -1,7 +1,6 @@
 module Day01
 
 open System.IO
-open System
 
 let resultingFrequency =
     File.ReadAllLines("01/input.txt")
