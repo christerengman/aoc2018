@@ -1,4 +1,4 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿module Program
 
 open System
 
@@ -8,5 +8,6 @@ let main argv =
 
     printfn "1a: %d" Day01.resultingFrequency
     printfn "1b: %d" Day01.firstFrequenceReachedTwice
+    printfn "2a: %d" Day02.checksum
 
     0 // return an integer exit code
