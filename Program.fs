@@ -9,5 +9,6 @@ let main argv =
     printfn "1a: %d" Day01.resultingFrequency
     printfn "1b: %d" Day01.firstFrequenceReachedTwice
     printfn "2a: %d" Day02.checksum
+    printfn "2b: %s" Day02.commonBoxIDLetters
 
     0 // return an integer exit code

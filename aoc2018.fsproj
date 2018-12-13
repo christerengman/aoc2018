@@ -1,14 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="01/Day01.fs" />
     <Compile Include="02/Day02.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
 </Project>
